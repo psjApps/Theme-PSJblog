@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<HTML>
+  &lt;head&gt;
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+    <meta content='blogger' name='generator'/>
+	<link expr:href='data:blog.homepageUrl + &quot;favicon.ico&quot;' rel='icon' type='image/x-icon'/>
+	<link expr:href='data:blog.url' rel='canonical'/>
+	<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; – Atom&quot;' rel='alternate' type='application/atom+xml'/>
+	<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; – RSS&quot;' rel='alternate' type='application/rss+xml'/>
+	<link expr:href='&quot;http://www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; – Atom&quot;' rel='alternate' type='application/atom+xml'/>
+	<link href='http://www.blogger.com/openid-server.g' rel='openid.server'/>
+	<link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>
+	<b:if cond='data:blog.pageType == &quot;item&quot;'>
+	<b:if cond='data:blog.postImageThumbnailUrl'>
+	<link expr:href='data:blog.postImageThumbnailUrl' rel='image_src'/>
+	</b:if>
+	<b:if cond='data:blog.metaDescription != &quot;&quot;'>
+	<meta expr:content='data:blog.metaDescription' name='description'/>
+	<b:else/>
+	<meta expr:content='data:blog.pageName + &quot; – &quot; + data:blog.title' name='description'/>
+	</b:if>
+	</b:if>
+    <!--SEO Title Tag -->
+	<b:if cond='data:blog.url == data:blog.homepageUrl'><title><data:blog.title/></title></b:if>
+	<b:if cond='data:blog.pageType == &quot;item&quot;'><title><data:blog.pageName/> &#8211; <data:blog.title/></title></b:if>
+	<b:if cond='data:blog.pageType == &quot;archive&quot;'><title>Archive for <data:blog.pageName/></title></b:if>
+	<b:if cond='data:blog.pageType == &quot;static_page&quot;'><title><data:blog.pageName/></title></b:if>
+	<b:if cond='data:blog.pageType == &quot;index&quot;'><b:if cond='data:blog.searchLabel'><title><data:blog.title/> &#8211; <data:blog.pageName/></title></b:if></b:if>
+	<b:if cond='data:blog.pageType == &quot;error_page&quot;'><title>Page Not Found</title></b:if>
+	<b:if cond='data:blog.pageType == &quot;index&quot;'><b:if cond='data:blog.url != data:blog.homepageUrl'><title><data:blog.pageTitle/> &#8211; All Post</title></b:if></b:if>
+    <b:skin><![CDATA[
+          /****CSS CODE*****/
+    ]]></b:skin>
+  	<!-- Bootstrap-->
+    <link href='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/css/bootstrap/bootstrap.css' rel='stylesheet'/>
+
+    <!-- Template Style-->
+    <link href='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/css/fontsawesome/font-awesome.css' rel='stylesheet'/> 
+    <link href='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/css/animate/animate.css' rel='stylesheet'/>
+    <link href='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/css/style.css' rel='stylesheet'/>
+    <link href='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/css/shortcodes/shortcodes.css' rel='stylesheet'/>
+    <link href='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/css/fancybox/jquery-fancybox.css' rel='stylesheet'/>
+    <link href='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/css/responsive.css' rel='stylesheet'/>
+    <link href='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/css/slider/flexslider.css' rel='stylesheet'/>
+    <link href='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/css/carousel/owl.theme.default.min.css' rel='stylesheet'/>
+    <link href='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/css/carousel/owl.carousel.min.css' rel='stylesheet'/>
+    <link href='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/css/scrollbar/jquery.mCustomScrollbar.min.css' rel='stylesheet'/>
+
+  &lt;!-- <head/> --&gt;
+  &lt;head/&gt;
+  <body>
+    <div id='loading-overlay'>
+        <div class='loader'/>
+    </div>
+    <b:if cond='data:blog.url != data:blog.homepageUrl || data:view.isLayoutMode || data:view.isPreview'>
+    	<b:section class='main' id='main' showaddelement='yes'/>
+	</b:if>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/jquery/jquery.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/slider/rev-slider.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/plugins/plugins.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/jquery/jquery-countTo.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/jquery/jquery-ui.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/jquery/jquery-fancybox.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/slider/flex-slider.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/scroll/scroll-img.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/carousel/owl.carousel.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/jquery/jquery.mCustomScrollbar.concat.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/parallax.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/jquery/jquery-isotope.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/equalize.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/main.js'/>
+
+    <!-- slider -->
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/rev-slider/jquery/jquery.themepunch.tools.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/rev-slider/jquery/jquery.themepunch.revolution.min.js'/>
+
+    <!-- Load Extensions only on Local File Systems ! The following part can be removed on Server for On Demand Loading -->
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/rev-slider/extensions/extensionsrevolution.extension.actions.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/rev-slider/extensions/extensionsrevolution.extension.carousel.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/rev-slider/extensions/extensionsrevolution.extension.kenburn.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/rev-slider/extensions/extensionsrevolution.extension.layeranimation.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/rev-slider/extensions/extensionsrevolution.extension.migration.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/rev-slider/extensions/extensionsrevolution.extension.navigation.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/rev-slider/extensions/extensionsrevolution.extension.parallax.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/rev-slider/extensions/extensionsrevolution.extension.slideanims.min.js'/>
+    <script src='https://raw.githubusercontent.com/psjApps/Theme-PSJblog/main/js/rev-slider/extensions/extensionsrevolution.extension.video.min.js'/>
+  &lt;!-- </body> --&gt;
+  &lt;/body&gt;
+</HTML>
