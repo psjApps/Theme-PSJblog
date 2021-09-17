@@ -33,14 +33,14 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-@import url('font-awesome.css');
+@import url('https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/css/fontsawesome/font-awesome.css');
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?rn6xjl');
-  src:  url('../fonts/icomoon.eot?rn6xjl#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?rn6xjl') format('truetype'),
-    url('../fonts/icomoon.woff?rn6xjl') format('woff'),
-    url('../fonts/icomoon.svg?rn6xjl#icomoon') format('svg');
+  src:  url('https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/fonts/icomoon.eot?rn6xjl');
+  src:  url('https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/fonts/icomoon.eot?rn6xjl#iefix') format('embedded-opentype'),
+    url('https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/fonts/icomoon.ttf?rn6xjl') format('truetype'),
+    url('https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/fonts/icomoon.woff?rn6xjl') format('woff'),
+    url('https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/fonts/icomoon.svg?rn6xjl#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1404,7 +1404,7 @@ input::-webkit-input-placeholder {
 
 /*blog*/
 .bg-header{
-    background-image: url('https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/01.png');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/01.png);
     height: 579px;
     background-repeat: no-repeat;
 }
@@ -1614,7 +1614,7 @@ input::-webkit-input-placeholder {
     color: #707070;
 }
 .free-education{
-    background-image: url('../images/blog-sidebar/05.png');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/blog-sidebar/05.png);
     margin-top: 50px;
     padding: 48px 0 101px;
     background-size: cover;
@@ -1646,7 +1646,7 @@ input::-webkit-input-placeholder {
 
 /*footer*/
 .footer-type1{
-    background-image: url(../images/footer/01.png);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/footer/01.png);
     background-size: cover;
 }
 .footer-type1 .form-send-email{
@@ -1664,7 +1664,7 @@ input::-webkit-input-placeholder {
 }
 
 .footer-type2{
-    background-image: url(../images/footer/2.jpg);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/footer/2.jpg);
     background-size: cover;
 }
 
@@ -1676,7 +1676,7 @@ input::-webkit-input-placeholder {
 }
 
 .footer-type3{
-    background-image: url(../images/footer/3.png);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/footer/3.png);
     background-size: cover;
     background-position: center;
 }
@@ -2068,7 +2068,7 @@ input::-webkit-input-placeholder {
     margin-top: 120px;
 }
 .parallax1{
-    background-image: url(../images/home1/parallax1.jpg);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home1/parallax1.jpg);
 }
 
 .partner-clients-style1 .slide-client{
@@ -2136,7 +2136,7 @@ input::-webkit-input-placeholder {
 }
 
 .flat-benefit.style1{
-    background-image: url('../images/home1/17.png');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home1/17.png);
     background-size: cover;
     padding: 113px 0 47px 0;
 }
@@ -2175,7 +2175,7 @@ input::-webkit-input-placeholder {
 }
 
 .flat-event-style1{
-    background-image: url('../images/home1/23.jpg');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home1/23.jpg);
     background-size: cover;
     padding: 120px 0 89px 0;
 }
@@ -2232,11 +2232,11 @@ input::-webkit-input-placeholder {
 }
 
 .testimonial-style1 .wrap-quote{
-    background-image: url(../images/home1/28.png);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home1/28.png);
     background-position: center;      
 }
 .testimonial-style1 .wrap-info{
-    background-image: url(../images/home1/27.png);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home1/27.png);
     background-position: center;
     
     background-size: cover;
@@ -2476,7 +2476,7 @@ input::-webkit-input-placeholder {
 }
 
 .flat-services-style2{
-    background-image: url('../images/home2/11.png');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home2/11.png);
     background-size: cover;
     padding: 120px 0 114px 0;
 }
@@ -2502,7 +2502,7 @@ input::-webkit-input-placeholder {
 
 .flat-benefit.style22{
     padding: 210px 0 99px 0;
-    background-image: url('../images/home2/16.png');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home2/16.png);
     background-position: center;
     background-size: cover;
 }
@@ -2524,7 +2524,7 @@ input::-webkit-input-placeholder {
 }
 
 .testimonial-style2{
-    background-image: url('../images/home2/3.jpg');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home2/3.jpg);
     background-size: cover;
     padding: 155px 0 0 0;
 }
@@ -2594,7 +2594,7 @@ input::-webkit-input-placeholder {
 }
 
 .event-bg1 .content-event-left{
-    background-image: url('../images/home2/7.jpg');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home2/7.jpg);
 }
 .flat-event-bg .content-event-left{
     width: 54.4%;
@@ -2827,7 +2827,7 @@ input::-webkit-input-placeholder {
 }
 
 .transparent-head-style3{
-    background-image: url('../images/home3/1.jpg');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home3/1.jpg);
     background-size: cover;
     background-position: center;
     height: 1076px;
@@ -2889,7 +2889,7 @@ input::-webkit-input-placeholder {
 }
 
 .background-wh{
-    background-image: url('../images/home3/6.png');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home3/6.png);
     background-size: cover;
     padding: 268px 0 91px 0;
     margin-top: -87px;
@@ -2965,7 +2965,7 @@ input::-webkit-input-placeholder {
 }
 
 .flat-process-style3{
-    background-image: url('../images/home3/16.png');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home3/16.png);
     background-size: cover;
     background-position: center;
 }
@@ -2981,7 +2981,7 @@ input::-webkit-input-placeholder {
 }
 
 .background-pink-style3 {
-    background-image: url(../images/home3/11.png);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home3/11.png);
     background-size: cover;
     padding: 113px 0 0 0;
 }
@@ -3088,7 +3088,7 @@ input::-webkit-input-placeholder {
     text-transform: initial;
 }
 .flat-video-style3{
-    background-image: url(../images/home3/13.png);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home3/13.png);
     background-size: cover;
     background-position: center top;
     padding: 437px 0 62px 0;
@@ -3194,7 +3194,7 @@ input::-webkit-input-placeholder {
 }
 
 .latest-blog-style3{
-    background-image: url(../images/home3/14.png);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home3/14.png);
     background-size: cover;
     background-position: center;
     padding: 69px 0 90px 0; 
@@ -3287,7 +3287,7 @@ input::-webkit-input-placeholder {
 }
 
 .transparent-head-style4{
-    background-image: url('../images/home4/1.png');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home4/1.png);
     background-size: cover;
     background-position: center;
     height: 1076px;
@@ -3405,7 +3405,7 @@ input::-webkit-input-placeholder {
 }
 
 .flat-process-style4{
-    background-image: url('../images/home3/8.png');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home3/8.png);
     background-size: cover;
     background-position: center;
 }
@@ -3551,7 +3551,7 @@ input::-webkit-input-placeholder {
 }
 
 .transparent-head-style5{
-    background-image: url(../images/home5/01.png);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home5/01.png);
     background-size: cover;
     background-position: center;
     height: 857px;
@@ -3684,7 +3684,7 @@ input::-webkit-input-placeholder {
 }
 
 .flat-benefit-style5{
-    background-image: url(../images/home5/02.png);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home5/02.png);
     background-size: cover;
     padding: 112px 0 47px 0;
 }
@@ -3715,7 +3715,7 @@ input::-webkit-input-placeholder {
 }
 
 .flat-introduce-style5{
-    background-image: url(../images/home5/03.png);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home5/03.png);
     background-size: cover;
     background-position: center;
     padding: 69px 0 83px 0;
@@ -3779,7 +3779,7 @@ input::-webkit-input-placeholder {
 }
 
 .event-bg2 .content-event-left{
-    background-image: url(../images/home5/01.jpg);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home5/01.jpg);
     background-size: cover;
 }
 .event-bg2 .content-event .entry-info .entry-meta ul li{
@@ -3812,7 +3812,7 @@ input::-webkit-input-placeholder {
 }
 
 .testimonial-style5{
-    background-image: url('../images/home5/02.jpg');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/home5/02.jpg);
     background-position: center;
     background-size: cover;
     padding: 300px 0 114px 0;
@@ -3969,17 +3969,17 @@ input::-webkit-input-placeholder {
     background-position: center;
 }
 .edukin-introduce .bg-element1{
-    background-image: url('../images/about/1.jpg');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/about/1.jpg);
     padding: 141px 185px 129px 187px;
 }
 .edukin-introduce .bg-element2{
-    background-image: url('../images/about/2.jpg');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/about/2.jpg);
 }
 .edukin-introduce .bg-element3{
-    background-image: url('../images/about/3.jpg');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/about/3.jpg);
 }
 .edukin-introduce .bg-element4{
-    background-image: url('../images/about/4.jpg');
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/about/4.jpg);
     padding: 141px 185px 129px 196px;
 }
 .edukin-introduce .element-col50 p{
