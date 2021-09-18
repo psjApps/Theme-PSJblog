@@ -1646,7 +1646,7 @@ input::-webkit-input-placeholder {
 
 /*footer*/
 .footer-type1{
-    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/footer/01.png);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/footers/01.png);
     background-size: cover;
 }
 .footer-type1 .form-send-email{
@@ -1664,7 +1664,7 @@ input::-webkit-input-placeholder {
 }
 
 .footer-type2{
-    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/footer/2.jpg);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/footers/2.jpg);
     background-size: cover;
 }
 
@@ -1676,7 +1676,7 @@ input::-webkit-input-placeholder {
 }
 
 .footer-type3{
-    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/footer/3.png);
+    background-image: url(https://cdn.statically.io/gh/psjApps/Theme-PSJblog/main/images/footers/3.png);
     background-size: cover;
     background-position: center;
 }
